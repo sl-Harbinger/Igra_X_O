@@ -37,7 +37,7 @@ class Inp {
                 printArray.getprintArray(arrayList);
             }
 
-            if ((i > 4) & (logika.getLogica(arrayList) == 1)) { //проверка логики после 5 хода
+            if ((i > 4) && (logika.getLogica(arrayList) == 1)) { //проверка логики после 5 хода
                 System.out.println("Вы выиграли!");
                 break;
             }
